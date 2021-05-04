@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  margin-top: 15px;
+}
+.App .image {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
