@@ -1,4 +1,5 @@
 import React, { useState }from "react";
+import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary(){
@@ -11,6 +12,7 @@ export default function Dictionary(){
 
     function handleChange(event){
         Setword(event.target.value);
+        let apiUrl = "https://api.dictionaryapi.dev/api/v2/entries/en_US/hello"
     }
     
     return (
