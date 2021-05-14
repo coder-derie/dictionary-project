@@ -5,14 +5,21 @@ import "./Dictionary.css";
 export default function Dictionary(){
     let [word, Setword]= useState(null);
 
+    function handleResponse(response){
+        console.log(response.data[0]);
+    }
+    
     function handleWord(event){
         event.preventDefault();
-        alert(`Searching for the definition of ${word}`);
+        //api documentation can be found on Google Dictionary Api
+        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
+        axios.get(apiUrl).then(handleResponse);
+        console.log(apiUrl);
     }
 
     function handleChange(event){
         Setword(event.target.value);
-        let apiUrl = "https://api.dictionaryapi.dev/api/v2/entries/en_US/hello"
+       
     }
     
     return (
