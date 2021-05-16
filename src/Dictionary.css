@@ -1,4 +1,18 @@
+.Dictionary section {
+  background: #f5abc9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+.Dictionary section .btn {
+  margin-left: 10px;
+  opacity: 0.9;
+}
 .Dictionary .form {
   text-align: left;
   margin: 10px;
+}
+.Dictionary .search {
+  width: 65%;
 }

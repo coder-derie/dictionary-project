@@ -1,4 +1,4 @@
-import image from './dictionary-img.jpg';
+
 import './App.css';
 import Dictionary from "./Dictionary";
 
@@ -6,11 +6,12 @@ export default function App() {
   return (
     <div className="container"><div className="App">
       <header className="App-header">
-        <img src={image} className="image" alt="logo" />
+        <h1>My Dictionary App</h1>
       </header>
       <Dictionary defaultWord="coding"/>
       <footer className="footer">
-        <small>Coded by Deiriai Myers</small>
+        <small>Coded by 
+          {" "}<a href="https://github.com/coder-derie/dictionary-project">Deiriai Myers</a></small>
       </footer>
     </div>
     </div>

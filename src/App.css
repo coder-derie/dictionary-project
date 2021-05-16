@@ -1,12 +1,14 @@
 .App {
   margin-top: 15px;
 }
-.App .image {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+.App .App-header {
+  font-family: "Goblin One", cursive;
+  text-align: center;
 }
 .App .footer {
   text-align: center;
   margin: 15px;
+}
+.App .footer a {
+  text-decoration: none;
 }

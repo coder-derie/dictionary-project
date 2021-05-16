@@ -1,0 +1,8 @@
+.Synonyms {
+  margin: 10px 0;
+  padding: 10px;
+}
+.Synonyms li {
+  display: inline;
+  padding: 15px;
+}
